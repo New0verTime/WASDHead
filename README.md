@@ -25,3 +25,5 @@ Code for WASDHead: Low-Context-Switch Cursor Control with Head Mouse and Keyboar
 - Add preferred blendshape bindings for mode switch and action.
 - Test different facial expressions to find comfortable triggers
 - Adjust sensitivity thresholds as needed
+## Code for the User Study
+``` python fitts_task.py ```
