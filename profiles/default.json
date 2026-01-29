@@ -1,0 +1,62 @@
+{
+    "mouse_controller": {
+        "velocity_scale": 38.0,
+        "mincutoff": 0.4500000000000002,
+        "beta": 0.055999999999999994,
+        "fast_init": false,
+        "toggle": false,
+        "accel_on": true
+    },
+    "state_machine_blendshape": {
+        "name": "mouthRollUpper",
+        "index": 40,
+        "display": "mouthRollUpper",
+        "threshold": 0.3961
+    },
+    "face_processing": {
+        "mode": "LIVE_STREAM",
+        "camera_matrix": [
+            [
+                605.9397038438309,
+                0.0,
+                308.9749254978146
+            ],
+            [
+                0.0,
+                609.0008795396354,
+                223.35219149202408
+            ],
+            [
+                0.0,
+                0.0,
+                1.0
+            ]
+        ],
+        "dist_coeffs": [
+            [
+                -0.5673592702050022,
+                1.725272869858036,
+                0.008576104281977142,
+                0.007896092489621248,
+                -2.6406577103528264
+            ]
+        ],
+        "scr_width": 1920,
+        "scr_height": 1080,
+        "scr_width_mm": 344,
+        "scr_height_mm": 194,
+        "yaw_correct": 0.0,
+        "pitch_correct": -2.0
+    },
+    "blendshape_bindings": {
+        "bindings": [
+            {
+                "blendshape": "mouthSmileLeft",
+                "action": "mouse_click",
+                "threshold": 0.29710000000000003,
+                "mode": "press"
+            }
+        ],
+        "threshold": 0.5
+    }
+}

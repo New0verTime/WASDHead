@@ -1,0 +1,8 @@
+pyaudio
+pyautogui
+pyperclip 
+opencv-python
+pillow
+mediapipe
+customtkinter
+keyboard

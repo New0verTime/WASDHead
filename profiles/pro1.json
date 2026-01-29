@@ -1,0 +1,36 @@
+{
+    "mouse_controller": {
+        "velocity_scale": 17.0,
+        "mincutoff": 0.5,
+        "beta": 0.07
+    },
+    "voice_processor": {
+        "selected_microphone": "Microphone Array (AMD Audio Device)",
+        "commands": [
+            {
+                "command": "c",
+                "action": "key_c"
+            }
+        ]
+    },
+    "blendshape_bindings": {
+        "bindings": [
+            {
+                "blendshape": "mouthSmileLeft",
+                "action": "mouse_click",
+                "threshold": 0.5,
+                "mode": "hold"
+            },
+            {
+                "blendshape": "jawOpen",
+                "action": "mouse_right_click",
+                "threshold": 0.5,
+                "mode": "hold"
+            }
+        ],
+        "threshold": 0.5
+    },
+    "face_processing": {
+        "mode": "LIVE_STREAM"
+    }
+}
